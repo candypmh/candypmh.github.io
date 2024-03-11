@@ -4,10 +4,83 @@
 <head>
   <meta charset="UTF-8">
   <title> Mine's Portfolio </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic&display=swap"
+    rel="stylesheet">
+  <style>
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .middle_line{
+      border-top: 2px solid #e7e7e7;
+      margin: 30px auto;
+      width: 500px;
+    }
+
+    #txt_welcome {
+      text-align: center;
+      margin-bottom: 20px;
+      font-family: "Nanum Gothic", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 30px;
+    }
+
+    .card_container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-bottom: 2%;
+    }
+
+    .card {
+      text-align: center;
+    }
+
+    .card_img {
+      width: 450px;
+      height: 300px;
+    }
+
+    .card_title {
+      font-weight: bold;
+      font-size: 18px;
+      color: rgb(99, 99, 99);
+      font-family: "Nanum Gothic", sans-serif;
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    .card_button {
+      background-color: #e7e7e7;
+      border: 2px solid #e7e7e7;
+      color: black;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .card_button:hover {
+      background-color: white;
+      /* Green */
+      border: 2px solid #e7e7e7;
+      color: black;
+    }
+  </style>
 </head>
 
 <body>
   <h1> MINE'S PORTFOLIO</h1>
+
+  <!--구분선-->
+  <div class="middle_line"></div>
 
   <!-- 소개 -->
   <div id="txt_welcome">
@@ -40,7 +113,5 @@
     </div>
   </div>
 
-
 </body>
-
 </html>
